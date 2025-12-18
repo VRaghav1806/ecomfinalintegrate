@@ -1,4 +1,4 @@
-export const API = "http://localhost:5000"
+export const API = "https://ecomfinalintegrate-1.onrender.com:5000"
 export const products = [
   {
     _id: "1",
