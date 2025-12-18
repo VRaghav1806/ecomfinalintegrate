@@ -6,7 +6,7 @@ export default function Cart({ cart, setCart }) {
   };
 
   const calculateTotal = () => {
-    return cart.reduce((total, item) => total + item.price, 0);
+    return cart.reduce((total, item) => total + Number(item.price), 0);
   };
 
   return (
