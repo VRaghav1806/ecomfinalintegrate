@@ -27,7 +27,7 @@ jobs:
 
       - name: Build frontend
         run: |
-          cd Mernfrontintegratio
+          cd Mernfrontintegration
           npm run build
 
       - name: Configure AWS credentials
